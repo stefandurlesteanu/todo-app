@@ -1,0 +1,8 @@
+mutation UpdateTodo($id: String!, $todo: TodoInput!) {
+  updateTodo(id: $id, todo: $todo) {
+    title
+    body
+    archived
+    completed
+  }
+}

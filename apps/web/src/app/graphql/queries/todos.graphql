@@ -1,0 +1,11 @@
+query Todos {
+  getTodos {
+    id
+    title
+    body
+    archived
+    completed
+    updatedAt
+    createdAt
+  }
+}
